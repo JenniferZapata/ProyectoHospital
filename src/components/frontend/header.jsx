@@ -20,7 +20,7 @@ let Header = ()=>{
                 <div className="container d-flex align-items-center">
                     <h1 className="logo me-auto"><a href="index.html">ME MUERO SALUD</a></h1>
                     <Menu/>
-                    <a href="#appointment" className="appointment-btn scrollto">Agendar Cita</a>
+                    <a to="/login" className="appointment-btn scrollto">Agendar Cita</a>
                 </div>
             </header>
         </>

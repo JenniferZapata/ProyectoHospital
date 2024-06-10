@@ -1,6 +1,9 @@
+import Header from "../../components/frontend/header";
 let Home = ()=>{
     return(
-        <h1>Home</h1>
+        <>
+        <Header/>
+        </>
     )
 }
 export default Home;

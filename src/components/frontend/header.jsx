@@ -1,4 +1,6 @@
 import Menu from "./menu";
+import { Link } from "react-router-dom";
+
 let Header = ()=>{
     return(
         <>
@@ -20,7 +22,11 @@ let Header = ()=>{
                 <div className="container d-flex align-items-center">
                     <h1 className="logo me-auto"><a href="index.html">ME MUERO SALUD</a></h1>
                     <Menu/>
-                    <a to="/login" className="appointment-btn scrollto">Agendar Cita</a>
+
+                    <Link to="/login" className="appointment-btn scrollto">Agendar Cita</Link>
+                  
+                  
+                    
                 </div>
             </header>
         </>

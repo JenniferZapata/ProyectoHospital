@@ -1751,3 +1751,7 @@ section {
   color: #fff;
   text-decoration: none;
 }
+
+.bg-login-image{
+  background-image: url("./img/about.jpg") !important;
+}

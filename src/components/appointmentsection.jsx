@@ -59,6 +59,7 @@ let AppointmentSection = ()=>{
                         <div className="sent-message">Your appointment request has been sent successfully. Thank you!</div>
                     </div>
                     <div className="text-center"><button type="submit">Agendar Cita</button></div>
+                
                     </form>
 
                 </div>
